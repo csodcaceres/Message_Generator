@@ -1,44 +1,45 @@
-# 📨 Message Generator
+# 📬 Message Generator
 
-Proyecto en Python que genera mensajes personalizados a partir de inputs
-del usuario.\
-Incluye validación, formateo y una arquitectura modular profesional.
+Message Generator es un proyecto en Python diseñado para generar mensajes personalizados
+de manera sencilla y modular. Está pensado como ejemplo práctico de buenas prácticas,
+estructura de proyecto y programación limpia para portafolios profesionales.
 
-## 🚀 Características
+---
 
--   Uso de `input()` para interacción
--   Validación de datos
--   Limpieza y formateo de texto
--   Generación automática de mensajes
--   Arquitectura modular (`main.py`, `builder.py`, `utils.py`)
+## 🚀 Características principales
 
-## 📂 Estructura del Proyecto
+- Generación dinámica de mensajes personalizados.
+- Arquitectura modular usando paquetes en `src/`.
+- Código organizado, extensible y fácil de mantener.
+- Ejecución simple desde consola.
+- Preparado para agregar nuevas funcionalidades (plantillas, exportación, GUI, etc.).
 
-    message_generator/
-    ├── src/
-    │   ├── main.py
-    │   └── generator/
-    │       ├── __init__.py
-    │       ├── builder.py
-    │       └── utils.py
-    └── README.md
+---
 
-## ▶️ Ejecución
+## 📁 Estructura del proyecto
 
-    python src/main.py
+Message_Generator/
+│ README.md
+│ requirements.txt
+│ .gitignore
+│
+└── src/
+│ main.py
+│
+└── generator/
+├── init.py
+├── builder.py
+└── utils.py
+└── tests/ (opcional si agregás test unitarios)
 
-## 💬 Ejemplo
 
-    Enter your name: Oscar
-    Enter your favorite hobby: programar
+---
 
-    ---- Welcome Message -----
-    Hello Oscar!
-    Welcome to the world of programming.
-    It's great to know that you enjoy Programar.
-    Get ready to explore and create amazing things!
+## ▶️ Cómo ejecutar el proyecto
 
-## 👤 Autor
+1. Cloná el repositorio:
 
-Oscar Caceres\
-GitHub: https://github.com/csodcaceres
+```bash
+git clone https://github.com/csodcaceres/Message_Generator.git
+
+cd Message_Generator

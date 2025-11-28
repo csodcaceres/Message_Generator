@@ -1,0 +1,31 @@
+name: Python CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Se ejecuta en un servidor virtual de Linux
+    
+    steps:
+    - uses: actions/checkout@v4  # Descarga tu código
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # Puedes cambiar esto a una versión específica como '3.11'
+
+    - name: Install dependencies
+      run: |
+        # Instala las dependencias listadas en requirements.txt (incluyendo pytest)
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run tests with pytest
+      run: |
+        # Ejecuta todos los tests en la carpeta tests/
+        pytest
+    

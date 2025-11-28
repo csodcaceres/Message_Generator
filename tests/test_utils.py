@@ -1,4 +1,5 @@
-from src.generator.utils import validate_input, format_text 
+#from src.generator.utils import validate_input, format_text 
+from generator.utils import validate_input, format_text
 
 import pytest
 

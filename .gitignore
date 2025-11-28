@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Paquetes y distribuciones
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# --- Editors ---
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
+
+# --- Sistema Operativo ---
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store

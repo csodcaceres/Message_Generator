@@ -103,8 +103,8 @@ pytest -v
 
 ## 📎 Autor
 
-👤 **Oscar Cáceres**
-🐙 GitHub: [https://github.com/csodcaceres](https://github.com/csodcaceres)
+👤 **Oscar Cáceres**  
+🐙 GitHub: [https://github.com/csodcaceres](https://github.com/csodcaceres)  
 💼 LinkedIn: [https://www.linkedin.com/in/oscardanielcaceres95b95771/](https://www.linkedin.com/in/oscardanielcaceres95b95771/)
 
 ---

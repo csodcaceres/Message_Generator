@@ -27,7 +27,7 @@ estructura de proyecto y programación limpia para portafolios profesionales.
 │       ├── __init__.py  
 │       ├── builder.py  
 │       └── utils.py  
-└── tests/
+└── tests/  
 │   └── test_utils.py  
 ├── README.md  
 │ .gitignore  

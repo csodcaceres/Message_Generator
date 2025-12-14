@@ -18,19 +18,19 @@ estructura de proyecto y programación limpia para portafolios profesionales.
 
 ## 📁 Estructura del proyecto
 
-Message_Generator/
-│ README.md
-│ requirements.txt
-│ .gitignore
-│
-└── src/
-│ main.py
-│
-└── generator/
-├── init.py
-├── builder.py
-└── utils.py
-└── tests/ (opcional si agregás test unitarios)
+Message_Generator/  
+│ README.md  
+│ requirements.txt  
+│ .gitignore  
+│  
+└── src/  
+│ main.py  
+│  
+└── generator/  
+├── init.py  
+├── builder.py  
+└── utils.py  
+└── tests/ (opcional si agregás test unitarios)  
 
 
 ---

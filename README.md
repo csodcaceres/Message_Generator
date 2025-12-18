@@ -1,65 +1,60 @@
 # 📨 Message Generator
 
-Generador de mensajes en **Python** desarrollado con **Programación Orientada a Objetos (OOP)**, arquitectura modular y **tests automatizados**, aplicando buenas prácticas de desarrollo.
+Generador de mensajes en Python con arquitectura modular y enfoque en buenas prácticas de desarrollo.
 
-Este proyecto forma parte de mi **portfolio profesional** y está orientado a mostrar una estructura de proyecto clara, código mantenible y enfoque en calidad.
-
----
-
-## 🎯 Objetivo del proyecto
-
-* Aplicar Programación Orientada a Objetos en un proyecto real
-* Diseñar una arquitectura modular y extensible
-* Implementar tests automatizados para validar el comportamiento
-* Practicar buenas prácticas de desarrollo en Python
+Este proyecto está pensado como parte de un **portfolio profesional**, demostrando uso de **POO**, separación de responsabilidades, tests automatizados y estructura escalable.
 
 ---
 
-## 📂 Estructura del proyecto
+## 📌 Características
+
+* Arquitectura modular
+* Programación Orientada a Objetos (OOP)
+* Código limpio y legible
+* Tests automatizados con `pytest`
+* Preparado para crecer (extensible)
+
+---
+
+## 🗂️ Estructura del proyecto
 
 ```text
 Message_Generator/  
-├── src/  
-│   ├── generator/  
-│   │   ├── __init__.py  
-│   │   ├── builder.py  
-│   │   └── utils.py  
-│   └── main.py  
+├── src/
+│   ├── main.py  
+│   └── message_generator/  
+│       ├── __init__.py  
+│       ├── builder.py  
+│       ├── message.py  
+│       
 ├── tests/  
-│   └── test_generator.py  
+│   ├── test_builder.py  
+│   └── test_message.py  
 ├── requirements.txt  
+├── pyproject.toml  
 └── README.md  
 ```
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## ⚙️ Instalación
 
-* **Lenguaje:** Python
-* **Paradigma:** Programación Orientada a Objetos (OOP)
-* **Testing:** Pytest
-* **Control de versiones:** Git, GitHub
-
----
-
-## 🚀 Instalación
-
-1. Clonar el repositorio:
+Clonar el repositorio:
 
 ```bash
 git clone https://github.com/csodcaceres/Message_Generator.git
 cd Message_Generator
 ```
 
-2. (Opcional) Crear y activar un entorno virtual:
+Crear entorno virtual (opcional pero recomendado):
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux / Mac
-.venv\Scripts\activate   # Windows
+.venv\\Scripts\\activate     # Windows
 ```
 
-3. Instalar dependencias:
+Instalar dependencias:
 
 ```bash
 pip install -r requirements.txt
@@ -69,35 +64,53 @@ pip install -r requirements.txt
 
 ## ▶️ Uso
 
-Ejecutar el generador desde la raíz del proyecto:
+Ejecutar el generador de mensajes:
 
 ```bash
-python src/main.py
+python src/message_generator/main.py
 ```
 
-El programa genera mensajes a partir de la lógica definida en los módulos del paquete `generator`.
+Ejemplo de salida:
+
+```text
+Hola Oscar, ¡bienvenido al sistema!
+```
 
 ---
 
 ## 🧪 Tests
 
-Los tests están ubicados en la carpeta `tests/` y se ejecutan con **Pytest**.
-
-Para correr los tests:
+Para ejecutar los tests automatizados:
 
 ```bash
 pytest -v
 ```
 
+Los tests validan el comportamiento del generador y aseguran que los mensajes se construyan correctamente.
+
 ---
 
-## 📌 Buenas prácticas aplicadas
+## 🧠 Conceptos aplicados
 
+* Programación Orientada a Objetos
 * Separación de responsabilidades
-* Uso de funciones y clases bien definidas
-* Código modular y reutilizable
-* Tests automatizados
-* Estructura de proyecto profesional
+* Testing unitario
+* Buenas prácticas de estructura de proyectos en Python
+
+---
+
+## 🚀 Posibles mejoras futuras
+
+* Agregar CLI con `argparse`
+* Internacionalización (i18n)
+* Configuración por archivo `.json` o `.yaml`
+* Publicación como paquete instalable
+
+---
+
+## 📄 Licencia
+
+Este proyecto se publica con fines educativos y de demostración.
 
 ---
 
